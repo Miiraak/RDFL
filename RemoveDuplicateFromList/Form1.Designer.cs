@@ -64,7 +64,7 @@
             buttonSelect.TabIndex = 4;
             buttonSelect.Text = "Select";
             buttonSelect.UseVisualStyleBackColor = true;
-            buttonSelect.Click += buttonSelect_Click;
+            buttonSelect.Click += ButtonSelect_Click;
             // 
             // buttonGo
             // 
@@ -74,7 +74,7 @@
             buttonGo.TabIndex = 5;
             buttonGo.Text = "Go !";
             buttonGo.UseVisualStyleBackColor = true;
-            buttonGo.Click += buttonGo_Click;
+            buttonGo.Click += ButtonGo_Click;
             // 
             // Form1
             // 

@@ -4,9 +4,9 @@ namespace RemoveDuplicateFromList
     {
         string path = "";
         string LineTemp = "";
-        List<string> listBrut = new();
-        List<string> listClean = new();
-        List<string> listTemp = new();
+        readonly List<string> listBrut = [];
+        readonly List<string> listClean = [];
+        readonly List<string> listTemp = [];
 
 
         public Form1()
@@ -14,7 +14,7 @@ namespace RemoveDuplicateFromList
             InitializeComponent();
         }
 
-        private void buttonSelect_Click(object sender, EventArgs e)
+        private void ButtonSelect_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -23,7 +23,7 @@ namespace RemoveDuplicateFromList
             }
         }
 
-        private void buttonGo_Click(object sender, EventArgs e)
+        private void ButtonGo_Click(object sender, EventArgs e)
         {
             RemoveDuplicate();   
         }
