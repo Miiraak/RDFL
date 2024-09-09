@@ -36,5 +36,5 @@ Alors j'ai crée ce truc, je sais pas ce que j'en ferai, et vous non plus mais v
 - `RemoveDuplicate`: Lit le fichier, supprime les doublons des mots, et enregistre le résultat dans le fichier.
 
 ## License
-Concédé sous license (MIT)[https://github.com/Miiraak/RDFL/edit/master/LICENSE]
+Concédé sous license [MIT](https://github.com/Miiraak/RDFL/edit/master/LICENSE)
 
